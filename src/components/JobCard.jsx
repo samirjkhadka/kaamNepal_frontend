@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { assets } from "../assets/assets";
 
 const JobCard = ({ job }) => {
@@ -23,14 +24,13 @@ const JobCard = ({ job }) => {
         <button className="bg-blue-600 text-white px-4 py-2 rounded">
           Apply Now
         </button>
-        <button className="text-gray-500 border border-gray-500 px-4 py-2 rounded">Learn More</button>
+        <button className="text-gray-500 border border-gray-500 px-4 py-2 rounded">
+          Learn More
+        </button>
       </div>
       {/* 1:31:09 */}
     </div>
-
   );
 };
 
 export default JobCard;
-
-
